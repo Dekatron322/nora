@@ -1,0 +1,203 @@
+.app-header{
+	background:#2B2F39;
+	border-bottom: 1px solid #212429;
+}
+
+.active {
+		color: #0CEDFC;
+		text-underline-position: auto;
+	}
+.brand-text{
+	padding-right: 20px;
+}
+
+.btn1{
+	background: #0CEDFC; color: #000000;
+}
+.btn2{
+	background: #DA0CFC; color: #000000; border: none;
+}
+
+.btn3{
+	color: #0CEDFC; border: 1px solid #0CEDFC;
+}
+.menu-icon{
+	background: rgba(255, 255, 255, 0.1); border-radius: 5px;
+}
+.gradient-one {
+	position: absolute;
+	left: 13.79%;
+	right: 9.02%;
+	top: 28.03%;
+	bottom: 34.88%;
+
+	background: linear-gradient(180deg, rgba(12, 237, 252, 0.07) 0%, rgba(234, 236, 148, 0.07) 0.01%, rgba(180, 55, 252, 0.07) 41.27%, rgba(12, 237, 252, 0.0385563) 56.38%, rgba(218, 12, 252, 0.07) 88.67%, rgba(200, 32, 252, 0.0637908) 99.99%, rgba(12, 237, 252, 0) 100%);
+	filter: blur(70px);
+}
+
+.gradient-two {
+	position: absolute;
+	left: 11.44%;
+	right: 11.37%;
+	top: 31.46%;
+	bottom: 31.46%;
+
+	background: linear-gradient(180deg, rgba(12, 237, 252, 0.07) 0%, rgba(234, 236, 148, 0.07) 0.01%, rgba(180, 55, 252, 0.07) 41.27%, rgba(12, 237, 252, 0.0385563) 56.38%, rgba(218, 12, 252, 0.07) 88.67%, rgba(200, 32, 252, 0.0637908) 99.99%, rgba(12, 237, 252, 0) 100%);
+	filter: blur(70px);
+}
+
+.gradient-three {
+	position: absolute;
+	left: 5.09%;
+	right: 10.72%;
+	top: 34.88%;
+	bottom: 28.03%;
+
+	background: linear-gradient(180deg, rgba(12, 237, 252, 0.07) 0%, rgba(234, 236, 148, 0.07) 0.01%, rgba(180, 55, 252, 0.07) 41.27%, rgba(12, 237, 252, 0.0385563) 56.38%, rgba(218, 12, 252, 0.07) 88.67%, rgba(200, 32, 252, 0.0637908) 99.99%, rgba(12, 237, 252, 0) 100%);
+	filter: blur(70px);
+}
+
+.gradient-four{
+	position: absolute;
+	left: 6.74%;
+	right: 16.07%;
+	top: 38.31%;
+	bottom: 24.61%;
+
+	background: linear-gradient(180deg, rgba(12, 237, 252, 0.07) 0%, rgba(234, 236, 148, 0.07) 0.01%, rgba(180, 55, 252, 0.07) 41.27%, rgba(12, 237, 252, 0.0385563) 56.38%, rgba(218, 12, 252, 0.07) 88.67%, rgba(200, 32, 252, 0.0637908) 99.99%, rgba(12, 237, 252, 0) 100%);
+	filter: blur(70px);
+}
+
+.gradient-five {
+	position: absolute;
+	left: 16.14%;
+	right: 6.67%;
+	top: 24.61%;
+	bottom: 38.31%;
+
+	background: linear-gradient(180deg, rgba(12, 237, 252, 0.07) 0%, rgba(234, 236, 148, 0.07) 0.01%, rgba(180, 55, 252, 0.07) 41.27%, rgba(12, 237, 252, 0.0385563) 56.38%, rgba(218, 12, 252, 0.07) 88.67%, rgba(200, 32, 252, 0.0637908) 99.99%, rgba(12, 237, 252, 0) 100%);
+	filter: blur(70px);
+}
+
+.login{
+	background: #2B2F39;
+}
+.text-white a{
+	color: #DA0CFC;
+}
+
+.form-ui{
+	background: #212429; padding: 25px; border-radius: 20px; 
+}
+.form-inner-border{
+	height: 70px; 
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.swap{
+	position: relative;
+	margin-left: 124px;
+	width: 35px;
+	height: 35px;
+	border-radius: 35px;
+	color: #000000;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+
+	background: #0CEDFC;
+}
+
+.info{
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 15px;
+	height: 100px;
+	padding-left: 50px; font-size: 9px; padding-right: 50px; padding-top: 10px;
+}
+
+.info2{
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 15px;
+	height: 100px;
+	padding-left: 20px; font-size: 12px; padding-right: 20px; padding-top: 10px;
+}
+
+.info3{
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 15px;
+	height: 130px;
+	padding-left: 50px; font-size: 9px; padding-right: 50px; padding-top: 10px;
+}
+
+.info4{
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	height: 130px;
+	padding-left: 50px; font-size: 9px; padding-right: 50px; padding-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .app-footer {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.from{
+	padding-left:15px; padding-top: 10px
+}
+
+.input {
+	border: none;
+}
+
+.input-groups{
+	border: none; 
+	background: none;
+}
+
+.element{
+	height: 70px; border: 1px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+.png {
+	background: linear-gradient(99.08deg, #68F4FD 4.24%, #DA0CFC 59.6%);
+	border-radius: 15px; 
+	border: none;
+}
+
+.earn-png {
+	background: linear-gradient(93.51deg, rgba(255, 95, 0, 0.65) 0%, rgba(65, 175, 236, 0.47) 98.63%);
+	border-radius: 15px; 
+	border: none;
+}
+
+.liquidity {
+	background:linear-gradient(0deg, rgba(33, 36, 41, 0.8), rgba(33, 36, 41, 0.8)), url(https://png.pngtree.com/background/20210715/original/pngtree-blue-ocean-bank-card-plant-background-picture-image_1283663.jpg); background-size:cover; background-position: center;
+	border-radius: 15px; 
+	border: none;
+}
+
+.anchor {
+	font-size: 9px; 
+	text-underline-position: under; 
+	opacity: 1; 
+	z-index: 999;
+}
+
+.add-liquidity {
+	padding-right: 30px; 
+	padding-left: 30px
+}
+
+.connect {
+	color: #ffffff; 
+	padding-right: 40px; 
+	padding-left: 40px;
+}
